@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #2e7d32; /* verde Certipe escuro */
+  text-align: center;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #43a047; /* verde Certipe */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e7d32; /* verde Certipe escuro */
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9f5e9; /* fundo verde clarinho */
+  border-radius: 6px;
+  min-height: 50px;
+  font-size: 16px;
+  color: #2e7d32;
+  white-space: pre-wrap;
+}
+
